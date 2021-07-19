@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Jewellery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        img {
+            width: 50%;
+            height: 200px;
+        }
+
+        #data {
+            display: grid;
+            grid-gap: 1px;
+            grid-template-columns: repeat(4, 26%);
+            /* background-color: aquamarine; */
+        }
+
+        #cart {
+            margin-left: 93%;
+            font-size: large;
+
+        }
+
+        #body {
+            margin: 5%;
+            /* margin : auto; */
+            background-image: url();
+
+        }
+
+        #one {
+            background-color: rgb(255, 182, 193,0.3);
+            text-align: center;
+            height: 70px;
+            width: 100%;
+            color: rgb(25, 26, 24);
+
+        }
+    </style>
+</head>
+
+<body id="body">
+    <button onclick="showVisited()" id="cart"><i class="fa fa-shopping-cart"> Show cart</i></button>
+
+    <h1 id="one";">Shreeman Jewellers</h1>
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Jewellery" />
+        <input type="number" id="rating" placeholder="prices" />
+        <input type="text" id="img" placeholder="Image of modal" />
+    </form>
+
+    <button onclick="storeLocation()">add device</i></button>
+    <div id="data"></div>
+
+
+
+</body>
+
+</html>
+
+<script src="ecommers.js"></script>
